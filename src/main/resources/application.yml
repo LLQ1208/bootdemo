@@ -1,0 +1,15 @@
+#配置
+server:
+  port: 8080
+
+spring:
+  datasource:
+    name: test
+    url: jdbc:mysql://39.104.117.2:3306/money
+    username: root
+    password: 120823
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.ocean.pojo
